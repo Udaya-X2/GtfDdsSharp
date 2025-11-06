@@ -1,6 +1,6 @@
 # GtfDdsSharp
 
-[![Build](https://github.com/Udaya-X2/GtfDdsSharp/actions/workflows/ci-build.yml/badge.svg)](https://github.com/Udaya-X2/GtfDdsSharp/actions/workflows/ci-build.yml)
+[![Build Status](https://github.com/Udaya-X2/GtfDdsSharp/workflows/main/badge.svg)](https://github.com/Udaya-X2/GtfDdsSharp/actions)
 
 A .NET library to convert GTF files to and from DDS files.
 

@@ -1,5 +1,7 @@
 # GtfDdsSharp
 
+[![Build](https://github.com/Udaya-X2/GtfDdsSharp/actions/workflows/ci-build.yml/badge.svg)](https://github.com/Udaya-X2/GtfDdsSharp/actions/workflows/ci-build.yml)
+
 A .NET library to convert GTF files to and from DDS files.
 
 ## Background
@@ -58,5 +60,5 @@ image.ConvertToGtf(gtfBytes);
 ## References
 
 * Ported from `samples/util/gtf/libgtfconv`, a C++ library included in the PS3 SDK.
-* DDS test data from [Pfim](https://github.com/nickbabcock/Pfim/tree/67b74aec22bb9967f6cde2a831a705337b56b12d/tests/Pfim.Tests/data), created by Nick Babcock.
+* DDS test data from [Pfim](https://github.com/Udaya-X2/GtfDdsSharp/tree/67b74aec22bb9967f6cde2a831a705337b56b12d/tests/Pfim.Tests/data), created by Nick Babcock.
 * Icon by [Freepik](https://www.freepik.com/icon/replace_8718528).

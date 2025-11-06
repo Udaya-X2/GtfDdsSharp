@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Argument_StreamNotReadable" xml:space="preserve">
+    <value>Stream was not readable.</value>
+  </data>
+  <data name="Argument_TextureNotFound" xml:space="preserve">
+    <value>Unable to find texture with ID '{0}'.</value>
+  </data>
+  <data name="NotSupported_TextureFormat" xml:space="preserve">
+    <value>Texture format not supported: '{0}'.</value>
+  </data>
+  <data name="Argument_InvalidOffLen" xml:space="preserve">
+    <value>Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.</value>
+  </data>
+  <data name="IO_InvalidGtfHeader_NumTexture" xml:space="preserve">
+    <value>Invalid GTF file. Number of textures was not in the range [1, 255].</value>
+  </data>
+  <data name="IO_InvalidGtfHeader_TextureEOF" xml:space="preserve">
+    <value>Invalid GTF file. Texture attributes extend past the end of the file.</value>
+  </data>
+  <data name="IO_InvalidGtfHeader_EOF" xml:space="preserve">
+    <value>Invalid GTF file. Header data extends past the end of the file.</value>
+  </data>
+  <data name="IO_InvalidGtfTexture_Id" xml:space="preserve">
+    <value>Invalid GTF texture. Texture ID was not in the range [0, 255].</value>
+  </data>
+  <data name="IO_InvalidGtfTexture_EOF" xml:space="preserve">
+    <value>Invalid GTF texture. Image data extends past the end of the file.</value>
+  </data>
+  <data name="IO_FileTooLong4GB" xml:space="preserve">
+    <value>The file is too long. This operation is currently limited to supporting files less than 4 gigabytes in size.</value>
+  </data>
+  <data name="IO_InvalidDdsHeader_PFSize" xml:space="preserve">
+    <value>Invalid DDS file. Invalid pixel format size detected.</value>
+  </data>
+  <data name="IO_InvalidDdsHeader_Size" xml:space="preserve">
+    <value>Invalid DDS file. Invalid header size detected.</value>
+  </data>
+  <data name="ArgumentOutOfRange_DdsImageCount" xml:space="preserve">
+    <value>The number of DDS images was not in the range [1, 255].</value>
+  </data>
+  <data name="IO_InvalidDdsHeader_Magic" xml:space="preserve">
+    <value>Invalid DDS file. Bad magic number detected.</value>
+  </data>
+  <data name="IO_InvalidDds_EOF" xml:space="preserve">
+    <value>Invalid DDS file. Image data extends past the end of the file.</value>
+  </data>
+  <data name="IO_InvalidDdsHeader_EOF" xml:space="preserve">
+    <value>Invalid DDS file. Header data extends past the end of the file.</value>
+  </data>
+  <data name="IO_InvalidDdsHeader_Convert" xml:space="preserve">
+    <value>Invalid DDS file. Header cannot be converted to a GTF texture.</value>
+  </data>
+  <data name="NotSupported_DX10" xml:space="preserve">
+    <value>DX10 DDS files are not supported.</value>
+  </data>
+  <data name="IO_FileTooLong2GB" xml:space="preserve">
+    <value>The file is too long. This operation is currently limited to supporting files less than 2 gigabytes in size.</value>
+  </data>
+  <data name="Argument_DdsOverflowBytes" xml:space="preserve">
+    <value>The given DDS buffer is too small to convert the specified data.</value>
+  </data>
+  <data name="Argument_GtfOverflowBytes" xml:space="preserve">
+    <value>The given GTF buffer is too small to convert the specified data.</value>
+  </data>
+  <data name="ArgumentOutOfRange_Enum" xml:space="preserve">
+    <value>Enum value was out of legal range.</value>
+  </data>
+  <data name="IO_InvalidGtfTexture_Offset" xml:space="preserve">
+    <value>Invalid GTF texture. Texture offset was not aligned to a 128-byte boundary.</value>
+  </data>
+  <data name="IO_InvalidGtfFile_Size" xml:space="preserve">
+    <value>Invalid GTF file. File size was not aligned to a 128-byte boundary.</value>
+  </data>
+  <data name="IO_InvalidGtfHeader_Size" xml:space="preserve">
+    <value>Invalid GTF file. Image size was not aligned to a 128-byte boundary.</value>
+  </data>
+</root>

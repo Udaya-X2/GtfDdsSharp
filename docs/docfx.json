@@ -4,7 +4,7 @@
     {
       "src": [
         {
-          "src": "../lib/GtfDdsSharp",
+          "src": "../src/GtfDdsSharp",
           "files": [
             "**/*.csproj"
           ]
